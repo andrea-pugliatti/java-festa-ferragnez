@@ -1,4 +1,4 @@
-## EX Festa Ferragnez
+# EX Festa Ferragnez
 
 State lavorando col servizio di sicurezza dei Ferragnez e il vostro compito è di assicurarvi che accedano alla festa solo gli invitati presenti sulla lista (in fondo al post)
 
@@ -10,7 +10,7 @@ Nel programma occorre:
 - verificare che il nome sia presente nella lista
 - lasciarlo entrare o rispedirlo cortesemente da dove è venuto :occhiali_da_sole: 
 
-# Bonus
+## Bonus
 se avete usato il ciclo for per cercare il nome nella lista nella consegna base, implementare lo stesso programma usando il ciclo while, e viceversa
 
 Lista invitati: 
