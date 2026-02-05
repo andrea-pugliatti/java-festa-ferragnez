@@ -15,13 +15,21 @@ public class CheckGuest {
         in.close();
 
         boolean found = false;
+        int i = 0;
 
-        for (int i = 0; i < guests.length; i++) {
+        while (!found && i < guests.length) {
             if (guests[i].equals(input)) {
                 found = true;
-                break;
             }
+            i++;
         }
+
+        // for (int i = 0; i < guests.length; i++) {
+        // if (guests[i].equals(input)) {
+        // found = true;
+        // break;
+        // }
+        // }
 
         if (found) {
             System.out.println("Puoi entrare!");
